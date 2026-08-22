@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-groq
+langchain-chroma
+langchain-huggingface
+chromadb
+sentence-transformers
+rank-bm25
+streamlit
+python-dotenv
+pydantic
+huggingface-hub
+pygments

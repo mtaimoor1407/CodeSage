@@ -1,0 +1,16 @@
+venv/
+env/
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+*.pyo
+codesage_chroma_db/
+uploaded_repos/
+extracted_repos/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.cache/
