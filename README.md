@@ -147,30 +147,6 @@ Get a free HuggingFace token at: https://huggingface.co/settings/tokens
 streamlit run app.py
 ```
 
----
-
-## 📁 Project Structure
-
-codesage/
-├── app.py ← Streamlit UI
-├── requirements.txt
-├── .env ← API keys (not committed)
-├── .streamlit/
-│ └── config.toml ← Upload size + theme config
-├── core/
-│ ├── extractor.py ← ZIP extraction + file filtering
-│ ├── chunker.py ← Language-aware code chunking
-│ ├── vectorstore.py ← Chroma vector store
-│ ├── retriever.py ← Hybrid + reranking retriever
-│ ├── chain.py ← RAG chain + structured output
-│ └── prompts.py ← Code-specific prompts
-├── models/
-│ └── schemas.py ← Pydantic output schemas
-└── utils/
-└── helpers.py ← Syntax highlighting + display
-
-
----
 
 ## 💡 Example Questions
 
